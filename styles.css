@@ -30,11 +30,9 @@ body {
     max-width: 1200px;
     background-color: rgb(37, 37, 37);
     border: none;
-    border-radius: 20px;
+    border-radius: 60px;
     padding: 10px 0;
-     /* position: fixed;
-    left: 10%;  */
-} 
+}  
 
 .navbar {
     display: flex;
@@ -166,10 +164,6 @@ button:hover::before {
 }
 
 .main__image img {
-    /* border: none;
-    border-radius: 50%;
-    background-color: white;
-    border: 5px solid red; */
     border-radius: 155px 107px 200px 116px;
     background-color: red;
     max-width: 100%;
@@ -323,17 +317,15 @@ button:hover::before {
         display: flex;
         flex-direction: column;
      }
-
 }
 
-
-    
 
 /* mobile   */
  @media (max-with: 568px){
     
     .container   {
-            max-width:90%;
+            max-width: 100%;
+            min-height: 1OOvh;
         }
 
    
