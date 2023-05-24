@@ -253,6 +253,10 @@ button:hover::before {
 /* tapblet  */
 
  @media (max-width: 768px) {
+     body {
+        background-color:  rgb(37, 37, 37);
+     }
+
   .container  {
         max-width: 100%;
         
@@ -338,16 +342,20 @@ button:hover::before {
         flex-direction: column;
      }
 
+     .footer__email p {
+        color: white;
+     }
+
     
 }
 
 
 /* mobile   */
- @media (max-with: 568px){
+ @media (max-width: 568px){
     
     .container   {
             max-width: 100%;
-            min-height: 1OOvh;
+            max-height: 100vh;
         }
 
    
